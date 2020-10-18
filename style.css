@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+   background-color: rgb(0, 61, 114);
+   padding-top: 0.5%;
+}
+
+header {
+   text-align: center;
+   margin-bottom: 0.5%;
+}
+
+h1 {
+   color: white;
+   font-size: 2.3vw;
+}
+
+section {
+   background-color: white;
+   width: 24%;
+   margin: auto;
+   padding-left: 0.7%;
+   padding-top: 0.4%;
+   padding-bottom: 0.6%;
+}
+
+footer {
+   color: white;
+   margin-top: 0.5%;
+   text-align: center;
+   font-size: 1.7vw;
+}
+
+select {
+   width: 59%;
+   margin-top: 1.6%;
+   margin-bottom: 1.4%;
+}
+
+p {
+   margin-bottom: 1.8%;
+}
+
+@media (max-width: 413px) {
+   body {
+      padding-top: 0.8%;
+   }
+   
+   header {
+      margin-bottom: 1.2%;
+   }
+   
+   h1 {
+      font-size: 6vw;
+   }
+   
+   section {
+      width: 76%;
+      padding-left: 1.5%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-bottom: 1.7%;
+   }
+   
+   footer {
+      margin-top: 1.6%;
+      font-size: 5.7vw;
+   }
+
+   select {
+      width: 42%;
+      margin-top: 4px;
+   }
+
+   p {
+      margin-bottom: 1.8%;
+      font-size: 4.4vw;
+   }
+
+   span {
+      font-size: 4.2vw;
+   }
+   
+   #botao {
+   	margin-bottom: 3.5px;
+   }
+}
